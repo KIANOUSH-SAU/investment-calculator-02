@@ -23,6 +23,7 @@ function App() {
 		<>
 			<Header />
 			<UserInput investment={userInput} onChange={handleChange} />
+			<Results investment={userInput} />
 		</>
 	);
 }
